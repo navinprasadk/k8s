@@ -1,4 +1,4 @@
-# Day 01: Components of Kubernetes Cluster
+# Components of Kubernetes Cluster
 
 A Kubernetes cluster is a collection of nodes that runs containerised applications, it has two main components i.e control plane and node
 
@@ -14,6 +14,8 @@ A Kubernetes cluster is a collection of nodes that runs containerised applicatio
 - Can be either a physical machine or a virtual machine where you run the containerised workloads
 - Performs the task assigned by the control plane
 - Previously called minions
+
+![Cluster Components Diagram](./assets/Fig-k.1-components-of-kubernetes-cluster.png)
 
 ## Control plane components
 
@@ -64,3 +66,4 @@ Each node in the cluster consists of kubelet, Kube proxy and container run time
 
 - Container Run Time is the software that is responsible for running containers
 - Commonly used container run time: containerd, CRI-O, Docker, Mirantis Container Runtime
+
